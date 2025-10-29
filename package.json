@@ -1,0 +1,21 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "This is a simple file manager which performs the basic operations with file system objects",
+  "engines": {
+    "node": ">=24.10.0",
+    "npm": ">=10.9.2"
+  },
+  "main": "fileManager.js",
+  "scripts": {
+    "test": "node fileManager.js -- --username=anonymous",
+    "start": "node fileManager.js"
+  },
+  "keywords": [
+    "nodejs",
+    "fileManager",
+    "andriihordov"
+  ],
+  "author": "andriihordov",
+  "license": "ISC"
+}
