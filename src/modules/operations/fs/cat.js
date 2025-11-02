@@ -7,7 +7,11 @@ const operationName = getModuleName(import.meta.filename);
 const cat = async (fileName) => {
   const cwd = getItem('cwd');
   const input = createReadStream(resolve(cwd, fileName));
-  return input;
+  const buffer = [];
+  for await (const chunk of input) {
+    buffer.push(chunk);
+  }
+  return buffer.join('');
 };
 
 export default {
