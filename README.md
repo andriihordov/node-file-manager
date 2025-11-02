@@ -111,38 +111,6 @@ Example:
 | `rn <old> <new>`                    | Rename a file                                                                                                                   | `rn old.txt new.txt`              |
 | `up`                                | Go up one directory level                                                                                                       | `up`                              |
 
-## ⚙️ Project Structure
-
-    node-file-manager/
-    ├── src/
-    │   ├── modules/
-    │   │   ├── fs/
-    │   │   │   ├── add.js
-    │   │   │   ├── cat.js
-    │   │   │   ├── cp.js
-    │   │   │   ├── ls.js
-    │   │   │   ├── mkdir.js
-    │   │   │   ├── mv.js
-    │   │   │   ├── rn.js
-    │   │   │   └── rm.js
-    │   │   ├── navigation/
-    │   │   │   ├── cd.js
-    │   │   │   └── up.js
-    │   │   ├── hash/
-    │   │   │   └── hash.js
-    │   │   ├── zip/
-    │   │   │   ├── compress.js
-    │   │   │   └── decompress.js
-    │   │   ├── os/
-    │   │   │   └── os.js
-    │   ├── utils/
-    │   │   ├── helpers.js
-    │   │   └── constants.js
-    │   └── fileManager.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
-
 🧪 Example Output
 
 ```
@@ -167,21 +135,6 @@ Example:
 Node.js v24+
 
 Cross-platform support (Windows / macOS / Linux)
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to open issues or submit pull requests.
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/my-feature)
-
-Commit changes (git commit -m 'Add feature')
-
-Push to branch (git push origin feature/my-feature)
-
-Open a Pull Request
 
 ## 💡 Author
 
