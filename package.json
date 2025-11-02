@@ -17,5 +17,6 @@
     "andriihordov"
   ],
   "author": "andriihordov",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
