@@ -9,7 +9,7 @@
   "main": "fileManager.js",
   "scripts": {
     "test": "node fileManager.js -- --username=anonymous",
-    "start": "node fileManager.js"
+    "start": "node src/fileManager.js"
   },
   "keywords": [
     "nodejs",

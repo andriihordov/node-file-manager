@@ -9,7 +9,7 @@ import { PATH_TO_OPERATIONS } from './utils/constants.js';
 import printer from './modules/components/printer.js';
 
 const registeredOperations = await moduleLoader(PATH_TO_OPERATIONS);
-const userName = argv[3].split('=')[1];
+const userName = argv[2].split('=')[1];
 logIn(userName);
 const currentDirectory = registeredOperations.os.operation('_homedir');
 setItem({ cwd: currentDirectory });
